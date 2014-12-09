@@ -1,0 +1,417 @@
+<html xmlns:date="http://exslt.org/dates-and-times">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="./CSS/default.css">
+<title>Registry Tool</title>
+</head>
+<body>
+<h1>Registry Tool</h1>
+<p>
+<span class="title">Plugin Identifier: </span>10016</p>
+<p>
+<span class="title">Summary</span>
+</p>
+<ex4D:plugin-description xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for Registry Tool here -->
+<p>This plugin allows the user to read and write to the <a href="http://msdn.microsoft.com/en-us/library/ms724871(v=VS.85).aspx">registry</a> on Windows.</p>
+</ex4D:plugin-description>
+<a name="command:1"></a>
+<h2>Windows</h2>
+<a name="command:1,7"></a>
+<h3>RT Get binary value</h3>
+<p>
+<code>success:=RT Get binary value (key; subkey; name; value)</code>
+</p>
+<p>
+<code>key (LONGINT)</code>
+</p>
+<ex4D:argument argument-id="1" label="key" type="L" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $1 (LONGINT) here-->
+</ex4D:argument>
+<p>You can use a <a href="#constant:1">HKEY</a> constant for <code>key</code>.</p>
+<p>
+<code>subkey (TEXT)</code>
+</p>
+<ex4D:argument argument-id="2" label="subkey" type="T" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $2 (TEXT) here-->
+</ex4D:argument>
+<p>
+<code>name (TEXT)</code>
+</p>
+<ex4D:argument argument-id="3" label="name" type="T" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $3 (TEXT) here-->
+</ex4D:argument>
+<p>
+<code>value (BLOB)</code>
+</p>
+<ex4D:argument argument-id="4" label="value" type="O" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $4 (BLOB) here-->
+</ex4D:argument>
+<p>
+<code>success</code> (LONGINT)<br>
+<ex4D:return-value label="success" type="L" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for return value (LONGINT) here-->
+</ex4D:return-value>
+</p>
+<p>
+<span class="title">Discussion</span>
+</p>
+<ex4D:command-description xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for RT Get binary value here -->
+<p>This command tries to read the specified registry key whose value of type REG_BINARY.</p>
+</ex4D:command-description>
+<a name="command:1,8"></a>
+<h3>RT Get expand string value</h3>
+<p>
+<code>success:=RT Get expand string value (key; subkey; name; value)</code>
+</p>
+<p>
+<code>key (LONGINT)</code>
+</p>
+<ex4D:argument argument-id="1" label="key" type="L" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $1 (LONGINT) here-->
+</ex4D:argument>
+<p>You can use a <a href="#constant:1">HKEY</a> constant for <code>key</code>.</p>
+<p>
+<code>subkey (TEXT)</code>
+</p>
+<ex4D:argument argument-id="2" label="subkey" type="T" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $2 (TEXT) here-->
+</ex4D:argument>
+<p>
+<code>name (TEXT)</code>
+</p>
+<ex4D:argument argument-id="3" label="name" type="T" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $3 (TEXT) here-->
+</ex4D:argument>
+<p>
+<code>value (TEXT)</code>
+</p>
+<ex4D:argument argument-id="4" label="value" type="T" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $4 (TEXT) here-->
+</ex4D:argument>
+<p>
+<code>success</code> (LONGINT)<br>
+<ex4D:return-value label="success" type="L" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for return value (LONGINT) here-->
+</ex4D:return-value>
+</p>
+<p>
+<span class="title">Discussion</span>
+</p>
+<ex4D:command-description xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for RT Get expand string value here -->
+<p>This command tries to read the specified registry key whose value is of type REG_EXPAND_SZ.</p>
+</ex4D:command-description>
+<a name="command:1,6"></a>
+<h3>RT Get long value</h3>
+<p>
+<code>success:=RT Get long value (key; subkey; name; value)</code>
+</p>
+<p>
+<code>key (LONGINT)</code>
+</p>
+<ex4D:argument argument-id="1" label="key" type="L" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $1 (LONGINT) here-->
+</ex4D:argument>
+<p>You can use a <a href="#constant:1">HKEY</a> constant for <code>key</code>.</p>
+<p>
+<code>subkey (TEXT)</code>
+</p>
+<ex4D:argument argument-id="2" label="subkey" type="T" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $2 (TEXT) here-->
+</ex4D:argument>
+<p>
+<code>name (TEXT)</code>
+</p>
+<ex4D:argument argument-id="3" label="name" type="T" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $3 (TEXT) here-->
+</ex4D:argument>
+<p>
+<code>value (LONGINT)</code>
+</p>
+<ex4D:argument argument-id="4" label="value" type="L" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $4 (LONGINT) here-->
+</ex4D:argument>
+<p>
+<code>success</code> (LONGINT)<br>
+<ex4D:return-value label="success" type="L" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for return value (LONGINT) here-->
+</ex4D:return-value>
+</p>
+<p>
+<span class="title">Discussion</span>
+</p>
+<ex4D:command-description xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for RT Get long value here -->
+<p>This command tries to read the specified registry key whose value is of type REG_DWORD.</p>
+</ex4D:command-description>
+<a name="command:1,5"></a>
+<h3>RT Get string value</h3>
+<p>
+<code>success:=RT Get string value (key; subkey; name; value)</code>
+</p>
+<p>
+<code>key (LONGINT)</code>
+</p>
+<ex4D:argument argument-id="1" label="key" type="L" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $1 (LONGINT) here-->
+</ex4D:argument>
+<p>You can use a <a href="#constant:1">HKEY</a> constant for <code>key</code>.</p>
+<p>
+<code>subkey (TEXT)</code>
+</p>
+<ex4D:argument argument-id="2" label="subkey" type="T" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $2 (TEXT) here-->
+</ex4D:argument>
+<p>
+<code>name (TEXT)</code>
+</p>
+<ex4D:argument argument-id="3" label="name" type="T" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $3 (TEXT) here-->
+</ex4D:argument>
+<p>
+<code>value (TEXT)</code>
+</p>
+<ex4D:argument argument-id="4" label="value" type="T" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $4 (TEXT) here-->
+</ex4D:argument>
+<p>
+<code>success</code> (LONGINT)<br>
+<ex4D:return-value label="success" type="L" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for return value (LONGINT) here-->
+</ex4D:return-value>
+</p>
+<p>
+<span class="title">Discussion</span>
+</p>
+<ex4D:command-description xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for RT Get string value here -->
+<p>This command tries to read the specified registry key whose value is of type REG_SZ.</p>
+</ex4D:command-description>
+<a name="command:1,1"></a>
+<h3>RT Set binary value</h3>
+<p>
+<code>success:=RT Set binary value (key; subkey; name; value)</code>
+</p>
+<p>
+<code>key (LONGINT)</code>
+</p>
+<ex4D:argument argument-id="1" label="key" type="L" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $1 (LONGINT) here-->
+</ex4D:argument>
+<p>You can use a <a href="#constant:1">HKEY</a> constant for <code>key</code>.</p>
+<p>
+<code>subkey (TEXT)</code>
+</p>
+<ex4D:argument argument-id="2" label="subkey" type="T" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $2 (TEXT) here-->
+</ex4D:argument>
+<p>
+<code>name (TEXT)</code>
+</p>
+<ex4D:argument argument-id="3" label="name" type="T" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $3 (TEXT) here-->
+</ex4D:argument>
+<p>
+<code>value (BLOB)</code>
+</p>
+<ex4D:argument argument-id="4" label="value" type="O" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $4 (BLOB) here-->
+</ex4D:argument>
+<p>
+<code>success</code> (LONGINT)<br>
+<ex4D:return-value label="success" type="L" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for return value (LONGINT) here-->
+</ex4D:return-value>
+</p>
+<p>
+<span class="title">Discussion</span>
+</p>
+<ex4D:command-description xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for RT Set binary value here -->
+<p>This command tries to write the specified registry key whose value is of type REG_BINARY. A key will be created it it doesn't exist. As with all other commands, a value of 0 will be returned if the operation is successful. See <a href="http://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">documentation</a> for a list of system error codes.</p>
+</ex4D:command-description>
+<a name="command:1,3"></a>
+<h3>RT Set expand string value</h3>
+<p>
+<code>success:=RT Set expand string value (key; subkey; name; value)</code>
+</p>
+<p>
+<code>key (LONGINT)</code>
+</p>
+<ex4D:argument argument-id="1" label="key" type="L" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $1 (LONGINT) here-->
+</ex4D:argument>
+<p>You can use a <a href="#constant:1">HKEY</a> constant for <code>key</code>.</p>
+<p>
+<code>subkey (TEXT)</code>
+</p>
+<ex4D:argument argument-id="2" label="subkey" type="T" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $2 (TEXT) here-->
+</ex4D:argument>
+<p>
+<code>name (TEXT)</code>
+</p>
+<ex4D:argument argument-id="3" label="name" type="T" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $3 (TEXT) here-->
+</ex4D:argument>
+<p>
+<code>value (TEXT)</code>
+</p>
+<ex4D:argument argument-id="4" label="value" type="T" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $4 (TEXT) here-->
+</ex4D:argument>
+<p>
+<code>success</code> (LONGINT)<br>
+<ex4D:return-value label="success" type="L" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for return value (LONGINT) here-->
+</ex4D:return-value>
+</p>
+<p>
+<span class="title">Discussion</span>
+</p>
+<ex4D:command-description xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for RT Set expand string value here -->
+<p>This command tries to write the specified registry key whose value is of type REG_EXPAND_SZ.</p>
+</ex4D:command-description>
+<a name="command:1,2"></a>
+<h3>RT Set long value</h3>
+<p>
+<code>success:=RT Set long value (key; subkey; name; value)</code>
+</p>
+<p>
+<code>key (LONGINT)</code>
+</p>
+<ex4D:argument argument-id="1" label="key" type="L" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $1 (LONGINT) here-->
+</ex4D:argument>
+<p>You can use a <a href="#constant:1">HKEY</a> constant for <code>key</code>.</p>
+<p>
+<code>subkey (TEXT)</code>
+</p>
+<ex4D:argument argument-id="2" label="subkey" type="T" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $2 (TEXT) here-->
+</ex4D:argument>
+<p>
+<code>name (TEXT)</code>
+</p>
+<ex4D:argument argument-id="3" label="name" type="T" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $3 (TEXT) here-->
+</ex4D:argument>
+<p>
+<code>value (LONGINT)</code>
+</p>
+<ex4D:argument argument-id="4" label="value" type="L" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $4 (LONGINT) here-->
+</ex4D:argument>
+<p>
+<code>success</code> (LONGINT)<br>
+<ex4D:return-value label="success" type="L" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for return value (LONGINT) here-->
+</ex4D:return-value>
+</p>
+<p>
+<span class="title">Discussion</span>
+</p>
+<ex4D:command-description xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for RT Set long value here -->
+<p>This command tries to write the specified registry key whose value is of type REG_DWORD.</p>
+</ex4D:command-description>
+<a name="command:1,4"></a>
+<h3>RT Set string value</h3>
+<p>
+<code>success:=RT Set string value (key; subkey; name; value)</code>
+</p>
+<p>
+<code>key (LONGINT)</code>
+</p>
+<ex4D:argument argument-id="1" label="key" type="L" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $1 (LONGINT) here-->
+</ex4D:argument>
+<p>You can use a <a href="#constant:1">HKEY</a> constant for <code>key</code>.</p>
+<p>
+<code>subkey (TEXT)</code>
+</p>
+<ex4D:argument argument-id="2" label="subkey" type="T" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $2 (TEXT) here-->
+</ex4D:argument>
+<p>
+<code>name (TEXT)</code>
+</p>
+<ex4D:argument argument-id="3" label="name" type="T" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $3 (TEXT) here-->
+</ex4D:argument>
+<p>
+<code>value (TEXT)</code>
+</p>
+<ex4D:argument argument-id="4" label="value" type="T" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $4 (TEXT) here-->
+</ex4D:argument>
+<p>
+<code>success</code> (LONGINT)<br>
+<ex4D:return-value label="success" type="L" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for return value (LONGINT) here-->
+</ex4D:return-value>
+</p>
+<p>
+<span class="title">Discussion</span>
+</p>
+<ex4D:command-description xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for RT Set string value here -->
+<p>This command tries to write the specified registry key whose value is of type REG_SZ.</p>
+</ex4D:command-description>
+<a name="constant:1"></a>
+<h2>HKEY</h2>
+<p>
+<code><a name="constant:1,1"></a>HKEY_CLASSES_ROOT (0)</code>
+</p>
+<ex4D:constant constant-id="1" name="HKEY_CLASSES_ROOT" type="L" value="0" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for HKEY_CLASSES_ROOT (0) here-->
+</ex4D:constant>
+<p>
+<code><a name="constant:1,2"></a>HKEY_CURRENT_CONFIG (1)</code>
+</p>
+<ex4D:constant constant-id="2" name="HKEY_CURRENT_CONFIG" type="L" value="1" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for HKEY_CURRENT_CONFIG (1) here-->
+</ex4D:constant>
+<p>
+<code><a name="constant:1,3"></a>HKEY_CURRENT_USER (2)</code>
+</p>
+<ex4D:constant constant-id="3" name="HKEY_CURRENT_USER" type="L" value="2" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for HKEY_CURRENT_USER (2) here-->
+</ex4D:constant>
+<p>
+<code><a name="constant:1,4"></a>HKEY_LOCAL_MACHINE (3)</code>
+</p>
+<ex4D:constant constant-id="4" name="HKEY_LOCAL_MACHINE" type="L" value="3" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for HKEY_LOCAL_MACHINE (3) here-->
+</ex4D:constant>
+<p>
+<code><a name="constant:1,5"></a>HKEY_PERFORMANCE_DATA (4)</code>
+</p>
+<ex4D:constant constant-id="5" name="HKEY_PERFORMANCE_DATA" type="L" value="4" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for HKEY_PERFORMANCE_DATA (4) here-->
+</ex4D:constant>
+<p>
+<code><a name="constant:1,6"></a>HKEY_USERS (5)</code>
+</p>
+<ex4D:constant constant-id="6" name="HKEY_USERS" type="L" value="5" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for HKEY_USERS (5) here-->
+</ex4D:constant>
+<p>
+<code><a name="constant:1,7"></a>HKEY_PERFORMANCE_TEXT (6)</code>
+</p>
+<ex4D:constant constant-id="7" name="HKEY_PERFORMANCE_TEXT" type="L" value="6" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for HKEY_PERFORMANCE_TEXT (6) here-->
+</ex4D:constant>
+<p>
+<code><a name="constant:1,8"></a>HKEY_PERFORMANCE_NLSTEXT (7)</code>
+</p>
+<ex4D:constant constant-id="8" name="HKEY_PERFORMANCE_NLSTEXT" type="L" value="7" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for HKEY_PERFORMANCE_NLSTEXT (7) here-->
+</ex4D:constant>
+<p class="footer">
+<span class="title">Documentation Update: </span>2011-01-25T13:36:5709:00</p>
+</body>
+</html>

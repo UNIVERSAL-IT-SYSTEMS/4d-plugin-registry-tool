@@ -1,0 +1,219 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Development;
+		activeTarget = 8D01CCC60486CAD60068D4B7 /* Registry Tool */;
+		codeSenseManager = D1D33F4D12EEE8C6009418B0 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					301,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 317647031;
+			PBXWorkspaceStateSaveDate = 317647031;
+		};
+		perUserProjectItems = {
+			D1D33F5812EEE95E009418B0 /* PBXTextBookmark */ = D1D33F5812EEE95E009418B0 /* PBXTextBookmark */;
+			D1D33F5A12EEE95E009418B0 /* PlistBookmark */ = D1D33F5A12EEE95E009418B0 /* PlistBookmark */;
+			D1D33F5B12EEE95E009418B0 /* PBXTextBookmark */ = D1D33F5B12EEE95E009418B0 /* PBXTextBookmark */;
+			D1D33F5C12EEE95E009418B0 /* PBXTextBookmark */ = D1D33F5C12EEE95E009418B0 /* PBXTextBookmark */;
+			D1D33F6A12EEE9EC009418B0 /* PBXTextBookmark */ = D1D33F6A12EEE9EC009418B0 /* PBXTextBookmark */;
+			D1D33F6B12EEE9EC009418B0 /* PBXTextBookmark */ = D1D33F6B12EEE9EC009418B0 /* PBXTextBookmark */;
+			D1D33F6D12EEE9EC009418B0 /* PBXTextBookmark */ = D1D33F6D12EEE9EC009418B0 /* PBXTextBookmark */;
+		};
+		sourceControlManager = D1D33F4C12EEE8C6009418B0 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	089C167EFE841241C02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {787, 597}}";
+			sepNavSelRange = "{110, 0}";
+			sepNavVisRange = "{0, 190}";
+			sepNavWindowFrame = "{{38, 127}, {846, 725}}";
+		};
+	};
+	18B684F006944F2000CC6A1E /* 4DPluginAPI.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {716, 15075}}";
+			sepNavSelRange = "{882, 7}";
+			sepNavVisRange = "{546, 773}";
+		};
+	};
+	18B684F206944F2000CC6A1E /* Flags.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {852, 645}}";
+			sepNavSelRange = "{957, 0}";
+			sepNavVisRange = "{785, 291}";
+		};
+	};
+	18B684F406944F2000CC6A1E /* PublicTypes.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {540, 14085}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 457}";
+		};
+	};
+	18B684FE06944F8800CC6A1E /* 4DPlugin.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {852, 5325}}";
+			sepNavSelRange = "{9198, 0}";
+			sepNavVisRange = "{5846, 394}";
+			sepNavWindowFrame = "{{553, 153}, {846, 725}}";
+		};
+	};
+	8D01CCC60486CAD60068D4B7 /* Registry Tool */ = {
+		activeExec = 0;
+	};
+	8D01CCD10486CAD60068D4B7 /* Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{599, -19}, {846, 725}}";
+		};
+	};
+	D1D33F4C12EEE8C6009418B0 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	D1D33F4D12EEE8C6009418B0 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	D1D33F5812EEE95E009418B0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D1D33F5912EEE95E009418B0 /* InfoPlist.strings */;
+		name = "InfoPlist.strings: 1";
+		rLen = 190;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 190;
+		vrLoc = 0;
+	};
+	D1D33F5912EEE95E009418B0 /* InfoPlist.strings */ = {
+		isa = PBXFileReference;
+		name = InfoPlist.strings;
+		path = "/Users/miyako/Documents/4D/Plugins/public/4d_keisuke/SOURCES/Registry Tool/English.lproj/InfoPlist.strings";
+		sourceTree = "<absolute>";
+	};
+	D1D33F5A12EEE95E009418B0 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D01CCD10486CAD60068D4B7 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/miyako/Desktop/Registry Tool/Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	D1D33F5B12EEE95E009418B0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 18B684F406944F2000CC6A1E /* PublicTypes.h */;
+		name = "PublicTypes.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 457;
+		vrLoc = 0;
+	};
+	D1D33F5C12EEE95E009418B0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 18B684F006944F2000CC6A1E /* 4DPluginAPI.h */;
+		name = "4DPluginAPI.h: 37";
+		rLen = 7;
+		rLoc = 882;
+		rType = 0;
+		vrLen = 773;
+		vrLoc = 546;
+	};
+	D1D33F6A12EEE9EC009418B0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 18B684FE06944F8800CC6A1E /* 4DPlugin.cpp */;
+		name = "4DPlugin.cpp: 246";
+		rLen = 0;
+		rLoc = 1880;
+		rType = 0;
+		vrLen = 478;
+		vrLoc = 5901;
+	};
+	D1D33F6B12EEE9EC009418B0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D1D33F6C12EEE9EC009418B0 /* 4DPlugin.c */;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+		rType = 0;
+	};
+	D1D33F6C12EEE9EC009418B0 /* 4DPlugin.c */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = 4DPlugin.c;
+		path = "/Users/miyako/Documents/4D/Plugins/public/4d_keisuke/SOURCES/Registry Tool/4DPlugin.c";
+		sourceTree = "<absolute>";
+	};
+	D1D33F6D12EEE9EC009418B0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D1D33F6E12EEE9EC009418B0 /* 4DPlugin.c */;
+		name = "4DPlugin.c: 6";
+		rLen = 6;
+		rLoc = 176;
+		rType = 0;
+		vrLen = 396;
+		vrLoc = 0;
+	};
+	D1D33F6E12EEE9EC009418B0 /* 4DPlugin.c */ = {
+		isa = PBXFileReference;
+		name = 4DPlugin.c;
+		path = "/Users/miyako/Documents/4D/Plugins/public/4d_keisuke/SOURCES/Registry Tool/4DPlugin.c";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {692, 5340}}";
+			sepNavSelRange = "{176, 6}";
+			sepNavVisRange = "{0, 396}";
+		};
+	};
+}

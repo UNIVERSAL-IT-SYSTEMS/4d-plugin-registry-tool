@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns="http://www.4d.com/namespace/reserved/FP/Constants">
+   <appid>"0"</appid>
+   <fourdversmin>"9.0.0"</fourdversmin>
+   <fourdversmax>"9.0.0"</fourdversmax>
+   <command name="RT Set binary value" str="10016" topic="1">
+      <param position="1" k="10016"/>
+   </command>
+   <command name="RT Set long value" str="10016" topic="2">
+      <param position="1" k="10016"/>
+   </command>
+   <command name="RT Set expand string value" str="10016" topic="3">
+      <param position="1" k="10016"/>
+   </command>
+   <command name="RT Set string value" str="10016" topic="4">
+      <param position="1" k="10016"/>
+   </command>
+   <command name="RT Get string value" str="10016" topic="5">
+      <param position="1" k="10016"/>
+   </command>
+   <command name="RT Get long value" str="10016" topic="6">
+      <param position="1" k="10016"/>
+   </command>
+   <command name="RT Get binary value" str="10016" topic="7">
+      <param position="1" k="10016"/>
+   </command>
+   <command name="RT Get expand string value" str="10016" topic="8">
+      <param position="1" k="10016"/>
+   </command>
+</application>
